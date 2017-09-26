@@ -4,7 +4,6 @@ html {
 }
 
 body {
-  width: 960px;
   color: white;
 }
 
@@ -35,7 +34,7 @@ h3 {
 
 .products {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   margin: 3em 0 0 0;
 }
 
@@ -48,7 +47,7 @@ div {
   height: 9rem;
   padding: 2rem;
   display: flex;
-  justify-content: space-between;;
+  justify-content: space-around;
   align-items: center;
 
 }
@@ -72,7 +71,7 @@ div {
 }
 
 #main-banner {
-  background-image: url("resources/images/moto.jpeg");
+  background-image: url("../images/moto.jpeg");
   width: 100%;
   height: 25rem;
   background-repeat: no-repeat;
